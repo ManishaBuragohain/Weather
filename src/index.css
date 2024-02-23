@@ -1,7 +1,7 @@
-
+/* google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-
+/* general css */
 * {
   margin: 0;
   padding: 0;
@@ -10,9 +10,9 @@
   letter-spacing: 0.04em;
 }
 
-
+/* background */
 .background {
-  background: linear-gradient(to bottom, #92968c, #e1e8d7, #a4e385);
+  background: linear-gradient(to bottom, #2fa5ed, #b5d3f9, #ebeefb);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -48,12 +48,12 @@
 }
 
 .background .box::-webkit-scrollbar-thumb {
-  background-color: #a5f1a0;
+  background-color: #2FA5ED;
   border-radius: 4px;
 }
 
 .background .box::-webkit-scrollbar-thumb:hover {
-  background-color: #a5f1a0;
+  background-color: #2fa5ed;
 }
 
 .background .box::-webkit-scrollbar-track {
@@ -81,7 +81,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #a5f1a0;
+  color: #2fa5ed;
 }
 
 .box form .city-input {
@@ -99,7 +99,7 @@
   border: none;
   outline: none;
   background-color: #fff;
-  color: #a5f1a0;
+  color: #2fa5ed;
   width: 75px;
   cursor: pointer;
 }
@@ -131,7 +131,7 @@
 .details-box-header .switch {
   width: 80px;
   height: 32px;
-  background-color: #a5f1a0;
+  background-color: #2fa5ed;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -238,7 +238,7 @@
 
 /* details children */
 .weather-details-container .details .city-name {
-  color: #a5f1a0;
+  color: #2FA5ED;
 }
 
 .weather-details-container .details .icon-and-temp {
@@ -247,7 +247,7 @@
 }
 
 .icon-and-temp h1 {
-  color: #a5f1a0;
+  color: #2FA5ED;
   font-size: 56px;
 }
 
@@ -257,7 +257,7 @@
 
 /* metrices children */
 .weather-details-container .metrices h4 {
-  color: #a5f1a0;
+  color: #2FA5ED;
   margin-left: 4px;
   margin-bottom: 25px;
 }
@@ -279,7 +279,7 @@
 }
 
 .key .value {
-  color: #a5f1a0;
+  color: #2FA5ED;
 }
 
 .key span {
@@ -288,7 +288,7 @@
 }
 
 .value span {
-  color: #a5f1a0;
+  color: #2FA5ED;
 }
 
 /* extended-forecasts */
@@ -306,7 +306,7 @@
   width: calc(20% - 10px);
   height: 120px;
   border-radius: 4px;
-  background-color: #a5f1a0;
+  background-color: #2fa5ed;
   color: #fff;
   margin-right: 10px;
   padding: 10px;
